@@ -1,0 +1,7 @@
+## Interface: 80300
+## Title: BeastUI
+## Author: Beastbludd
+## Version: 1.0
+## Notes: Blizzard UI Tweaks by @Beastbludd
+
+BeastUI.lua

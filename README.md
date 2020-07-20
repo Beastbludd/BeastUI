@@ -13,4 +13,4 @@ Very simple tweaks to the default Blizzard UI in World of Warcraft
 * class colour name/hp bars on unitframes
 * auto sell junk & auto repair
 
-![ScreenShot](https://i.imgur.com/NwOMqwr.png)
+![ScreenShot](https://i.imgur.com/wNgdL4z.png)

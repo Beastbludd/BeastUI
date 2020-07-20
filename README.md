@@ -9,7 +9,7 @@ Very simple tweaks to the default Blizzard UI in World of Warcraft
 * hide pvp icons
 * hide prestige icons
 * hide actionbar artwork
-* target castbar tweaks
+* scale up unitframes
 * class colour name/hp bars on unitframes
 * auto sell junk & auto repair
 

@@ -39,6 +39,11 @@ TargetFrameTextureFramePrestigePortrait:SetAlpha(0)
 FocusFrameTextureFramePrestigeBadge:SetAlpha(0)
 FocusFrameTextureFramePrestigePortrait:SetAlpha(0)
 
+--[[scale unitframes]]
+PlayerFrame:SetScale(1.3)
+TargetFrame:SetScale(1.3)
+FocusFrame:SetScale(1.3)
+
 --[[hide actionbar artwork]]
 ActionBarUpButton:SetAlpha(0)
 ActionBarDownButton:SetAlpha(0)
@@ -46,12 +51,6 @@ MainMenuBarArtFrameBackground:Hide()
 MainMenuBarArtFrame.PageNumber:Hide()
 MultiBarBottomLeft: ClearAllPoints()
 MultiBarBottomLeft:SetPoint('TOP', MainMenuBar, 'BOTTOM', 0, 47)
-
---[[target castbar tweaks]]
-TargetFrameSpellBar:ClearAllPoints()
-TargetFrameSpellBar:SetPoint("CENTER", UIParent, "CENTER", 0, 100)
-TargetFrameSpellBar.SetPoint = function() end
-TargetFrameSpellBar:SetScale(1.2)
 
 --[[class colour name/hp bars on unitframes]]
 local frame = CreateFrame("FRAME")

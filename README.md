@@ -11,6 +11,7 @@ Very simple tweaks to the default Blizzard UI in World of Warcraft
 * hide actionbar artwork
 * scale up unitframes
 * class colour name/hp bars on unitframes
+* player castbar tweaks
 * auto sell junk & auto repair
 
 ![ScreenShot](https://i.imgur.com/wNgdL4z.png)

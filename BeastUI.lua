@@ -129,3 +129,9 @@ g:SetScript("OnEvent", function()
                 end
         end
 end)
+
+--[[player castbar tweaks]]
+CastingBarFrame:ClearAllPoints()
+CastingBarFrame:SetPoint("Bottom",UIParent,"Bottom", 0, 200)
+CastingBarFrame.SetPoint = function() end
+CastingBarFrame:SetScale(1.3)

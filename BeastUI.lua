@@ -39,11 +39,6 @@ TargetFrameTextureFramePrestigePortrait:SetAlpha(0)
 FocusFrameTextureFramePrestigeBadge:SetAlpha(0)
 FocusFrameTextureFramePrestigePortrait:SetAlpha(0)
 
---[[scale unitframes]]
-PlayerFrame:SetScale(1.3)
-TargetFrame:SetScale(1.3)
-FocusFrame:SetScale(1.3)
-
 --[[hide actionbar artwork]]
 ActionBarUpButton:SetAlpha(0)
 ActionBarDownButton:SetAlpha(0)
@@ -90,6 +85,13 @@ hooksecurefunc("HealthBar_OnValueChanged", function(self)
         colour(self, self.unit)
 end)
 
+--[[target castbar size & move]]
+CastingBarFrame:SetScale(1.2)
+TargetFrameSpellBar:ClearAllPoints()
+TargetFrameSpellBar:SetPoint("CENTER", UIParent, "CENTER", 0, 150)
+TargetFrameSpellBar.SetPoint = function() end
+TargetFrameSpellBar:SetScale(1.2)
+
 --[[auto sell junk & auto repair]]
 local g = CreateFrame("Frame")
 g:RegisterEvent("MERCHANT_SHOW")
@@ -129,9 +131,3 @@ g:SetScript("OnEvent", function()
                 end
         end
 end)
-
---[[player castbar tweaks]]
-CastingBarFrame:ClearAllPoints()
-CastingBarFrame:SetPoint("Bottom",UIParent,"Bottom", 0, 200)
-CastingBarFrame.SetPoint = function() end
-CastingBarFrame:SetScale(1.3)

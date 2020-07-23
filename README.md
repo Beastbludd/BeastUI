@@ -14,4 +14,4 @@ Very simple tweaks to the default Blizzard UI in World of Warcraft
 * target castbar tweaks
 * auto sell junk & auto repair
 
-![ScreenShot](https://i.imgur.com/wNgdL4z.png)
+![ScreenShot](https://i.imgur.com/zv9EMYl.png)
